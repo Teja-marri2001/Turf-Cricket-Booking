@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: #e8f4eb;
+  background: radial-gradient(circle at top, #214b2f 0%, #0e2115 62%);
+}
+
+input,
+button,
+select {
+  transition: all 220ms ease;
+}
+
+.glass-card {
+  @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm;
+}
+
+.page-shell {
+  @apply mx-auto w-full max-w-5xl px-4 pb-8 pt-6 sm:px-6;
+}

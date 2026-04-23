@@ -1,0 +1,16 @@
+# Java (Spring Boot)
+backend/target/
+*.log
+
+# Node (React)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "backend",
+      "name": "turf-booking-backend"
+    }
+  ],
+  "settings": {
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.import.maven.enabled": true,
+    "java.project.importOnFirstTimeStartup": "automatic"
+  }
+}
