@@ -11,6 +11,14 @@ A mobile-first box cricket turf booking application with a 3-step booking flow.
 - `frontend/` - customer booking UI + admin panel UI
 - `backend/` - booking APIs, slot management, pricing APIs
 
+ 🚀 Features
+
+- 📅 Select date and view available slots
+- ⏰ Dynamic 2-hour slot generation
+- 🔒 Prevent double booking
+- 💳 Checkout & booking confirmation
+- 🗄 MySQL database integration
+
 ## Frontend Setup
 ```bash
 cd frontend
